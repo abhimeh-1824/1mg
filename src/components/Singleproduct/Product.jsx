@@ -184,7 +184,7 @@ const Product = () => {
 
    const getData = async ()=>{
        try{
-            const {data} = await axios.get(`http://localhost:5000/zandu/${id}`)
+            const {data} = await axios.get(`https://tatamed.herokuapp.com/zandu/${id}`)
             console.log(data)
             // console.log(product.image)
 
